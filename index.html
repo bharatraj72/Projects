@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="st.css">
+    <title>Home :: Page</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0%;
+    }
+    
+    .mySlides {
+        display: none;
+        margin-top: 50px;
+        padding: 0%;
+    }
+    
+    img {
+        width: 100%;
+        height: 600px;
+    }
+    
+    .slideshow-container {
+        max-width: 100%;
+        position: relative;
+        margin: auto;
+    }
+    /* Next & previous buttons */
+    
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 28px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    /* Position the "next button" to the right */
+    
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    /* On hover, add a black background color with a little bit see-through */
+    
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    /* Caption text */
+    
+    .text {
+        color: #ffffff;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+    /* Number text (1/3 etc) */
+    
+    .numbertext {
+        color: #ffffff;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    /* The dots/bullets/indicators */
+    
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #999999;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    
+    .active,
+    .dot:hover {
+        background-color: #111111;
+    }
+    /* Fading animation */
+    
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    /* On smaller screens, decrease text size */
+    
+    @media only screen and (max-width: 300px) {
+        .prev,
+        .next,
+        .text {
+            font-size: 11px
+        }
+    }
+</style>
+
+<body>
+
+    <section id="header">
+        <div class="menu">
+        </div>
+    </section>
+    <section id="page">
+        <div id="content">
+            <h1>Develop your mind and skills</h1>
+            <h2>MORE THAN 1200 ONLINE COURSES</h2>
+            <p>Want to get professional knowledge in the fast-developing IT sphere? Pract offers a wide variety of online courses for everyone willing to enter the world of information technologies.</p>
+            <a href=""><button class="btn">Networking</button></a>
+            <a href=""><button class="btn">Design</button></a>
+            <a href=""><button class="btn">Programming</button></a>
+            <a href=""><button class="btn">Marketing</button></a>
+            <a href=""><button class="btn">Cyber Security</button></a>
+        </div>
+        </div>
+    </section>
+    <section id="home">
+        <div id="content-2">
+            <div class="box">
+                <img src="img.jpg">
+            </div>
+            <div class="box-1">
+                <h1>A few words about</h1>
+                <h3>Sample Headline</h3>
+                <p>Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor smart money hopes worth too. Comfort produce husband boy her had hearing. Law others theirs passed but wishes. You day real less till
+                    dear read. Considered use dispatched melancholy sympathize discretion led. Oh feel if up to till like.</p>
+
+            </div>
+        </div>
+    </section>
+    <div class="box-2">
+        <p>He an thing rapid these after going drawn or. Timed she his law the spoil round defer. In surprise concerns informed betrayed he learning is ye. Ignorant formerly so ye blessing. He as spoke avoid given downs money on we. Of properly carriage
+            shutters ye as wandered up repeated moreover.</p>
+    </div>
+    <div id="box">
+
+        <div id="box-3">
+            <p>Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor smart money hopes worth too.</p>
+        </div>
+    </div>
+
+    <section id="page-1">
+        <div id="content-3">
+            <div class="box-4-1">
+                <img src="img1.png">
+                <h2>Best industry leaders</h2>
+                <p>Pract involves the best industry leaders, who share their experience, knowledge and tips with our students.</p>
+            </div>
+            <div class="box-4">
+                <img src="img2.png">
+                <h2>Best teachers</h2>
+                <p>Our staff consists of professional experienced teachers, who love what they do and use creative approach in teaching.</p>
+
+            </div>
+            <div class="box-4">
+                <img src="img3.png">
+                <h2>National awards</h2>
+                <p>Pract takes part in many IT educational contests. We won the National IT Progress Award 3 times.
+                </p>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="page-2">
+        <div id="content-4">
+            <h1>English without rules.<br> Start speaking properly!</h1>
+            <div id="content-5">
+                <div class="box-5">
+                    <img src="img4.jpg">
+                    <h2>Personalized Learning</h2>
+                    <p>Personalized learning is intended to facilitate the academic success of each student by first determininig the learning needs,interests.and aspirations of individual stuents,and then providing learning experiences that are customized
+                        to a greter of lesser extent for each student.</p>
+                </div>
+                <div class="box-5">
+                    <img src="img5.jpg">
+                    <h2>Get Your Certificate</h2>
+                    <p>Providing an academic Certificate which is the state of recognized completion of studies at a IANT which is issued in recognition of having satisfactorily completed the prescribed course of study.</p>
+                </div>
+                <div class="box-5">
+                    <img src="img6.jpg">
+                    <h2>Online study</h2>
+                    <p>We identify the needs and demands of the students which is why we stant out unique in the crowd. We offer online exam facility for students on various courses so that they can give exams from any corner of the world </p>
+
+                </div>
+            </div>
+            <div id="content-5">
+                <div class="box-5">
+                    <img src="img7.jpg">
+                    <h2>Best team</h2>
+                    <p>Teamwork is one of the most necessities of working in an orgnization, Every IANT consists of many teams that work towards achieving the goals of the organization.</p>
+                </div>
+                <div class="box-5">
+                    <img src="img8.jpg">
+                    <h2>24/7 Support</h2>
+                    <p>IANT team will support all the time and any problem, IANT team will be with you. </p>
+                </div>
+                <div class="box-5">
+                    <img src="img9.png">
+                    <h2>100% Placement Guarantee*</h2>
+                    <p>Contributing significantly to take your career to new heights, IANT platform ensures job opportunities to every student.</p>
+
+                </div>
+            </div>
+    </section>
+    <section id="page-3">
+        <div id="content-6">
+            <img src="about.jpg">
+            <h2>A few words about</h2>
+            <p>Every member of team believes strongly in the empowering power of knowledge. And we aim to share our knowledge with everyone willing to learn.</p>
+            <h4>&rarr;</h4>
+
+        </div>
+        <div id="box-4">
+            <div id="content-7">
+                <div class="box-6-1">
+                    <span>8.</span>
+                    <span class="num" data-val="827">000</span>
+                    <h3>SATISFIED STUDENTS</h3>
+
+                    <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                </div>
+                <div class="box-6-1">
+                    <span>$</span>
+                    <span class="num" data-val="650">000</span>
+                    <h3>AVAILABLE COURSES</h3>
+
+                    <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                </div>
+            </div>
+            <div id="content-8">
+                <div class="box-6">
+                    <span>219.</span>
+                    <span class="num" data-val="884">000</span>
+                    <h3>GRADUATES</h3>
+                    <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                </div>
+                <div class="box-6">
+                    <span>Only</span>
+                    <span class="num" data-val="10">000</span>
+                    <h3>BEST TEACHERS</h3>
+                    <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="page-5">
+        <div class="box-7">
+            <h2>Web development</h2>
+            <ul>
+
+                <li>Learn and Understand AngularJS</li>
+                <li>JavaScript: Understanding the Weird Parts</li>
+                <li>Webpack 2: The Complete Developer’s Guide</li>
+                <li>Build Responsive Real World Websites with HTML5 and CSS3
+                </li>
+                <li>ES6 Javascript: The Complete Developer’s Guide</li>
+                <li>The Web Developer Bootcamp</li>
+                <li>Full JavaScript Course: From Scratch to Results</li>
+                <li>Learn and Understand Php, Java, Python Programming</li>
+                <li>Learn and Understand C, C++ Programming</li>
+                <li>Learning as Android Developer </li>
+            </ul>
+        </div>
+        <div class="box-7">
+            <h2>Information technology</h2>
+            <ul>
+                <li>Cybersecurity</li>
+                <li>Cloud Computing</li>
+                <li>Cisco</li>
+                <li>Managing Risks</li>
+                <li>The Complete Cybersecurity Course</li>
+                <li>Learn Ethical Hacking From Scratch</li>
+                <li>The Complete Networking</li>
+                <li>Fundamentals Course.</li>
+                <li>Your CCNA start</li>
+                <li>Linux: SSH to remote server & </li>
+                <li>Networking basics for DevOps</li>
+                <li>Build automated speech systems with Azure Cognitive Services</li>
+                <li>Overview of Data Visualization</li>
+                <li>The Complete Microsoft Server Course</li>
+                <li>The Complete Redhat Server</li>
+            </ul>
+        </div>
+        <div class="box-7">
+            <h2>Web design</h2>
+            <ul>
+                <li>Build a Full Website using WordPress</li>
+                <li>Visual Elements of User Interface Design</li>
+                <li>Foundations of User Experience Design</li>
+                <li>Web Design for Everybody</li>
+                <li>Basics of Web Development & Coding</li>
+                <li>Design Principles an Introduction</li>
+                <li>Responsive Website Development and Design</li>
+                <li>Web Design: Strategy and Information Architecture</li>
+            </ul>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <section id="page-6">
+        <div id="content-9">
+            <h1>Meet Our Team</h1>
+        </div>
+        <div id="box-group">
+            <div class="box-8">
+                <img src="alex.jpg">
+                <h2>Alex Smith</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                <div class="logo">
+                    <a href=""><img src="fb.png"></a>
+                    <a href=""><img src="twiter.png"></a>
+                    <a href=""><img src="inst.png"></a>
+                </div>
+            </div>
+            <div class="box-8">
+                <img src="jone.jpg">
+                <h2>John Jackson</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor</p>
+                <div class="logo">
+                    <a href=""><img src="fb.png"></a>
+                    <a href=""><img src="twiter.png"></a>
+                    <a href=""><img src="inst.png"></a>
+                </div>
+            </div>
+            <div class="box-8">
+                <img src="mukesh.jpg">
+                <h2>Mukesh Soni</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                <div class="logo">
+                    <a href=""><img src="fb.png"></a>
+                    <a href=""><img src="twiter.png"></a>
+                    <a href=""><img src="inst.png"></a>
+                </div>
+            </div>
+            <div class="box-8">
+                <img src="roxine.jpg">
+                <h2>Mary John</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                <div class="logo">
+                    <a href="www.iantindia.com"><img src="fb.png"></a>
+                    <a href=""><img src="twiter.png"></a>
+                    <a href=""><img src="inst.png"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="Banner1.png">
+
+        </div>
+        <div class="mySlides fade">
+            <img src="Banner2.png">
+
+        </div>
+        <div class="mySlides fade">
+            <img src="Banner3.png">
+
+        </div>
+        <div class="mySlides fade">
+            <img src="Banner4.png">
+
+        </div>
+        <div class="mySlides fade">
+            <img src="Banner5.png">
+
+        </div>
+        <div class="mySlides fade">
+            <img src="Banner6.png">
+
+        </div>
+        <div class="mySlides fade">
+            <img src="Banner7.png">
+
+        </div>
+        <div class="mySlides fade">
+            <img src="Banner8.png">
+
+        </div>
+        <div class="mySlides fade">
+            <img src="Banner9.png">
+
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+    </div>
+    </div>
+    <script src="slider.js"></script>
+    <section id="contect">
+        <div id="content-10">
+            <form>
+                <div>
+                    <input type="text" name="name" placeholder="Enter your Name ">
+                </div>
+                <div>
+                    <input type="email" name="email" placeholder="Enter your email address">
+                </div>
+                <div>
+                    <input type="text" name="phone" placeholder="enter your phone(eg-4444 4442 22)">
+                </div>
+                <div>
+                    <textarea cols="50" rows="4">
+              </textarea>
+                </div>
+                <div>
+                    <button class="btn1" name="submit">SUBMIT</button>
+                </div>
+            </form>
+        </div>
+        <div class="contect">
+            <h2>call us</h2>
+            <p>+91 9587651000<br> +91 9521666006</p>
+
+            <h2>location</h2>
+            <p>First Floor, Campus Konark <br>Collage, jaipur Road, Sikar </p>
+
+            <h2>top services</h2>
+            <p>✔Hardware<br> ✔Software
+                <br> ✔Cyber Security<br> ✔Ethical Hacking</p>
+        </div>
+        <div class="content-10">
+            <img src="info.jpg">
+        </div>
+    </section>
+    <div id="footer">
+        <p>Copyright © 2022 IANT SIKAR | Design by <a href="">BHARAT RAJ KUMAWAT</a> </p>
+
+
+    </div>
+</body>
+
+</html>
